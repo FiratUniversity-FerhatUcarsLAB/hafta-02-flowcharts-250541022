@@ -1,4 +1,4 @@
-İsim - Soy isim 
-Öğrenci No:
+İsim - Soy isim: ELİF BABÜRHAN
+Öğrenci No:250541022
 
-sistemin kısa açıklaması (maks. 5-6 satır)
+chatCPT yardımı ile yazdığım atmden para çekme pseudocode ,graphviz online sitesinde algoritmik şemaya dönüştü. 
