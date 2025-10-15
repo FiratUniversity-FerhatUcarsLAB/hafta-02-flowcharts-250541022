@@ -1,0 +1,23 @@
+digraph AkilliEvGuvenlik {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontsize=10];
+
+    Start [label="Sistem Başlat"];
+    SensorOku [label="Sensör Verisi Oku"];
+    TehditKontrol [label="Tehdit Algılandı mı?", shape=diamond];
+    AlarmVer [label="Alarm Çal"];
+    Bildirim [label="Bildirim Gönder"];
+    Bekle [label="1 Saniye Bekle"];
+    LoopBack [label="Döngüye Devam Et"];
+
+    // Akış
+    Start -> SensorOku;
+    SensorOku -> TehditKontrol;
+
+    TehditKontrol -> AlarmVer [label="Evet"];
+    AlarmVer -> Bildirim -> LoopBack;
+
+    TehditKontrol -> Bekle [label="Hayır"];
+    Bekle -> LoopBack;
+    LoopBack -> SensorOku;
+}
