@@ -1,0 +1,54 @@
+digraph DersKayitSistemi {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontsize=10];
+
+    Start [label="Başla"];
+    Login [label="Giriş Yap"];
+    LoginCheck [label="Giriş Başarılı mı?", shape=diamond];
+
+    DersListesi [label="Ders Listesini Göster"];
+    DersSec [label="Ders Seç"];
+    DersBittiMi [label="Seçim Bitti mi?", shape=diamond];
+
+    KontenjanKontrol [label="Kontenjan Var mı?", shape=diamond];
+    OnKosulKontrol [label="Ön Koşul Sağlandı mı?", shape=diamond];
+    ZamanKontrol [label="Zaman Çakışması Var mı?", shape=diamond];
+    KrediKontrol [label="Kredi Limiti Aşıldı mı?", shape=diamond];
+    DanismanKontrol [label="Danışman Onayı Gerekli mi?", shape=diamond];
+    DanismanOnay [label="Danışman Onayı Alındı mı?", shape=diamond];
+
+    Kaydet [label="Ders Kaydı Onayla"];
+    Bitir [label="Kayıt Tamamlandı"];
+    Reddet [label="İşlem Sonlandırıldı"];
+
+    // Akış
+    Start -> Login -> LoginCheck;
+
+    LoginCheck -> DersListesi [label="Evet"];
+    LoginCheck -> Reddet [label="Hayır"];
+
+    DersListesi -> DersSec;
+    DersSec -> DersBittiMi;
+    DersBittiMi -> KontenjanKontrol [label="Hayır"];
+    DersBittiMi -> KrediKontrol [label="Evet"];
+
+    KontenjanKontrol -> OnKosulKontrol [label="Evet"];
+    KontenjanKontrol -> DersSec [label="Hayır"];
+
+    OnKosulKontrol -> ZamanKontrol [label="Evet"];
+    OnKosulKontrol -> DersSec [label="Hayır"];
+
+    ZamanKontrol -> DersSec [label="Hayır"];
+    ZamanKontrol -> DersSec [label="Evet"];
+
+    KrediKontrol -> Reddet [label="Evet"];
+    KrediKontrol -> DanismanKontrol [label="Hayır"];
+
+    DanismanKontrol -> DanismanOnay [label="Evet"];
+    DanismanKontrol -> Kaydet [label="Hayır"];
+
+    DanismanOnay -> Kaydet [label="Evet"];
+    DanismanOnay -> Reddet [label="Hayır"];
+
+    Kaydet -> Bitir;
+}
