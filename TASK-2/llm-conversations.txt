@@ -1,0 +1,33 @@
+🟢 Kullanıcı Sorusu 1:
+
+“E-ticaret sitesinde sepet yönetimi ve ödeme sistemini adım adım açıkla.
+Kullanıcı girişi, ürün ekleme, stok kontrolü, indirim kodu, kargo hesaplama ve ödeme aşamalarını içermeli.”
+
+🔵 Yanıt 1:
+
+Sana e-ticaret sürecini aşağıdaki adımlarla detaylı olarak açıkladım:
+
+Kullanıcı Girişi
+
+Ürün Ekleme
+
+Stok Kontrolü
+
+İndirim Kodu Uygulama
+
+Kargo Hesaplama
+
+Ödeme Aşaması
+Her adımı açıklayıp akış şeması özetini ve sipariş sonrası özellikleri de dahil ettim
+🟢 Kullanıcı Sorusu 2:
+
+“Pseudocode ve DOT kodunu yaz”
+
+🔵 Yanıt 2:
+
+Bu isteğine karşılık:
+
+Pseudocode: E-ticaret sepet ve ödeme sürecini mantıksal adımlarla yazdım.
+
+DOT (Graphviz) kodu: Süreci bir akış diyagramı olarak gösterecek şekilde yazılmış akış kodunu sağladım.
+Ayrıca GraphvizOnline gibi araçlarla bunu görselleştirebileceğini belirttim.
