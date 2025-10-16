@@ -1,0 +1,19 @@
+Sistem akışı ve kontroller:
+
+Üniversite ders kayıt sistemi adımları (giriş, ders listesi, seçim, kontroller, onay) ve hangi kontroller yapılmalı (kontenjan, ön koşul, zaman çakışması, kredi limiti, danışman onayı) hakkında konuştuk.
+
+Pseudocode yazımı:
+
+Detaylı, iç içe if-else yapıları ve döngülerle ders kayıt sürecinin pseudocode’unu oluşturduk.
+
+Graphviz DOT dönüşümü:
+
+Pseudocode’u Graphviz DOT diline çevirdik ve akış diyagramı şeklinde kodladık.
+
+Syntax hataları tartışması:
+
+DOT kodunda syntax hatası veren noktaların genellikle Türkçe karakterlerden ve bazı yazım kurallarından kaynaklandığını söyledim.
+
+Hatasız DOT kodu:
+
+Türkçe karakterleri kaldırarak, Graphviz’in hata vermeyeceği düzgün ve çalıştırılabilir DOT kodunu sundum.
