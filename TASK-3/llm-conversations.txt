@@ -1,0 +1,25 @@
+Randevu Alma Modülü için Pseudocode:
+
+Kimlik doğrulama, poliklinik seçimi, doktor listesi gösterimi,
+
+Uygun saatlerin gösterimi, randevu onaylama ve SMS gönderme.
+
+Tahlil Sonucu Görüntüleme Modülü için Pseudocode:
+
+Kimlik doğrulama, tahlil varlığı kontrolü,
+
+Sonucun hazır olup olmadığını kontrol,
+
+Sonucu gösterme veya bekleme mesajı,
+
+PDF indirme seçeneği.
+
+İki Modülün Birleştirilmesi:
+
+Ortak kimlik doğrulama,
+
+Menü üzerinden işlem seçimi (randevu alma ya da tahlil sonucu görüntüleme),
+
+İlgili modülün pseudocode’unun çağrılması,
+
+Randevu alma ve tahlil sonucu görüntüleme işlemlerinin tam entegrasyonu.
