@@ -1,0 +1,7 @@
+Sen: Akıllı ev güvenlik sistemi için 7/24 çalışan, sensör okuma, tehdit algılama, alarm verme ve bildirim gönderme süreçlerini içeren pseudocode istedin.
+
+Ben: Sana temel bir pseudocode yazdım, sonsuz döngü içinde sensör okuma, tehdit kontrolü, alarm ve bildirim işlemleriyle birlikte.
+
+Sen: Bu pseudocode’u DOT formatına (akış diyagramı için) çevirmemi istedin.
+
+Ben: Akış diyagramını temsil eden bir DOT kodu yazdım, ana adımlar ve akış yönleriyle birlikte.
