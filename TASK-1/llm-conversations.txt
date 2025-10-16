@@ -1,0 +1,23 @@
+🗂️ Konuşma Geçmişi Özeti
+
+Senin İsteğin:
+
+“ATM para çekme sistemi için detaylı pseudocode yazmanı istiyorum. Şunları içermeli: PIN doğrulama (3 hak), bakiye kontrolü, tutar kontrolü (20 TL katları), günlük limit kontrolü, işlem tekrarı seçeneği. Tüm adımları BAŞLA, OKU, YAZ, EĞER-İSE, DÖNGÜ yapılarıyla yaz.”
+
+✅ Ben de bu kriterlere uygun olarak detaylı bir pseudocode (sözde kod) yazdım.
+
+Senin İsteğin:
+
+“dot kodunu yaz”
+
+✅ Cevap olarak ATM sistemini temsil eden bir Graphviz DOT akış diyagramı kodu sundum. Akış diyagramında:
+
+PIN doğrulama
+
+Bakiye ve limit kontrolleri
+
+Tutar geçerliliği
+
+İşlem tekrarı
+
+Kart iade gibi akışlar dahil edildi.
